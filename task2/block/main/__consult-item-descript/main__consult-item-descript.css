@@ -1,0 +1,21 @@
+.main__consult-item-descript {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 5px 0 0;
+}
+
+@media screen and (max-width: 1010px) {
+    .main__consult-item-descript {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .main__consult-item-descript {
+        display: none;
+    }
+}

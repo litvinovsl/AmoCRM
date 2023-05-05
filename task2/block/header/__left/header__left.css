@@ -1,0 +1,20 @@
+.header__left {
+    display: flex;
+    flex-direction: row;
+    gap: 52px;
+}
+
+@media screen and (max-width: 1100px) {
+    .header__left {
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 615px) {
+    .header__right {
+        display: none;
+    }
+    .header__left {
+        width: calc( 100% - 32px );
+    }
+}

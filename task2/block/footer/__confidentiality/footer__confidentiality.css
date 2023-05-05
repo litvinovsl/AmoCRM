@@ -1,0 +1,16 @@
+.footer__confidentiality{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-top: 33px;
+    gap: 5px;
+}
+
+@media screen and (max-width: 615px) {
+    .footer__confidentiality {
+        align-items: baseline;
+        padding-top: 50px;
+        width: calc( 100% - 30px);
+        margin: 0 auto;
+    }
+}

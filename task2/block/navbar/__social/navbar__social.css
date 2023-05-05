@@ -1,0 +1,7 @@
+.navbar__social{
+    transition: opacity .3s ease-in-out;
+    cursor: pointer;
+}
+.navbar__social:hover {
+    opacity: .6;
+}

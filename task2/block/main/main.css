@@ -1,0 +1,23 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #E4E5EA;
+    padding-bottom: 69px;
+    padding-top: 90px;
+}
+
+@media screen and (max-width: 615px) {
+    .main {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 400px) {
+    .main {
+        align-items: start;
+        margin-left: 14px;
+        padding-top: 40px;
+        padding-bottom: 48px;
+    }
+}

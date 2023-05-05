@@ -1,0 +1,18 @@
+.main__button {
+    margin-top: 61px;
+    width: 262px;
+    height: 61px;
+    border: none;
+    color: #E4E5EA;
+    background-color: #4077F3;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+@media screen and (max-width: 615px) {
+    .main__button {
+        display: none;
+    }
+}

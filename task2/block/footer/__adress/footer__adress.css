@@ -1,0 +1,23 @@
+.footer__adress {
+    margin: 0;
+    color: #E4E5EA;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+@media screen and (max-width: 1010px) {
+    .footer__adress {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
+
+@media screen and (max-width: 615px) {
+    .footer__adress {
+        font-size: 14px;
+        line-height: 17px;
+    }
+}

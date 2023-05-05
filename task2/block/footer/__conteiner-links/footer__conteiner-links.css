@@ -1,0 +1,18 @@
+.footer__conteiner-links{
+    display: flex;
+    flex-direction: row;
+    gap: 98px;
+}
+
+@media screen and (max-width: 1100px) {
+    .footer__conteiner-links {
+        gap: 60px;
+    }
+}
+
+@media screen and (max-width: 615px) {
+    .footer__conteiner-links {
+        flex-direction: column;
+        gap: 27px;
+    }
+}

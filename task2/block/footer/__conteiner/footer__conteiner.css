@@ -1,0 +1,16 @@
+.footer__conteiner {
+    color: #E4E5EA;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 615px) {
+    .footer__conteiner {
+        flex-direction: column;
+        gap: 30px;
+        margin: 0 auto;
+        width: calc(100% - 30px);
+    }
+}
+

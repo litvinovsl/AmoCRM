@@ -1,0 +1,40 @@
+.main__consult-item-title {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin: 0;
+}
+.main__consult-item-title-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+@media screen and (max-width: 1010px) {
+    .main__consult-item-title {
+        font-size: 14px;
+        line-height: 19px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .main__consult-item-title {
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .main__- {
+        width: 10px;
+        border-image: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%) 1 / 5px;
+        border-style: solid;
+        border-width: 1px;
+        align-self: center;
+        height: 1px;
+        margin-right: 5px;
+    }
+    .main__consult-item-title-cont{
+        justify-content: start;
+    }
+}
+

@@ -1,0 +1,13 @@
+.main__left {
+    width: 362px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+@media screen and (max-width: 400px) {
+    .main__left {
+        width: 272px;
+        gap: 19px;
+    }
+}

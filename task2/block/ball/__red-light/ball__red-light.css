@@ -1,0 +1,19 @@
+.ball__red-light{
+    width: 311px;
+    height: 311px;
+    background: #961A1A;
+    opacity: 0.5;
+    filter: blur(196px);
+    left: -102px;
+    top: 251px;
+}
+
+@media screen and (max-width: 615px) {
+    .ball__red-light {
+        filter: blur(127px);
+        left: -55px;
+        left: -16px;
+        top: 304px;
+        height: 210px;
+    }
+}

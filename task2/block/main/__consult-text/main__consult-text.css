@@ -1,0 +1,41 @@
+.main__consult-text {
+    margin: 0;
+    padding-bottom: 40px;
+    width: 291px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: end;
+    background: linear-gradient(92deg, #FCB045 27.14%, #FD1D1D 121.36%), #E4E5EA;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+}
+
+.main__consult-text_ {
+    background: #E4E5EA;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform:none;
+
+}
+
+@media screen and (max-width: 1010px) {
+    .main__consult-text {
+        font-size: 14px;
+        line-height: 19px;
+    }
+}
+
+@media screen and (max-width: 615px) {
+    .main__consult-text {
+        text-align: start;
+        font-size: 18px;
+        line-height: 22px;
+        text-transform:none;
+        padding-bottom: 20px;
+    }
+}

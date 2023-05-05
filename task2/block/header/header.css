@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #FFF;
+    padding-top: 57px;
+}
+
+@media screen and (max-width: 615px) {
+    .header {
+        position:sticky;
+        top: 0;
+        height: 52px;
+        padding: 0;
+        width: 100%;
+        align-items: center;
+        justify-content:center;
+        background-color: #1E1E1E;
+    }
+}

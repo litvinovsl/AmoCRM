@@ -1,0 +1,9 @@
+.logo-container {
+    width: 140px;
+}
+
+@media screen and (max-width: 1010px) {
+    .logo-container {
+        display: none;
+    }
+}

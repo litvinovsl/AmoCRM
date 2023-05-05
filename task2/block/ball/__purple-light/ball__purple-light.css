@@ -1,0 +1,23 @@
+.ball__purple-light{
+    width: 259px;
+    height: 259px;
+    background: #833AB4;
+    border-radius: 50%;
+    opacity: 0.5;
+    filter: blur(196px);
+    left: 602px;
+    top: -154px;
+}
+
+@media screen and (max-width: 1010px) {
+    .ball__purple-light {
+        left: 200px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .ball__purple-light {
+        left: 0;
+        top: 107px;
+    }
+}

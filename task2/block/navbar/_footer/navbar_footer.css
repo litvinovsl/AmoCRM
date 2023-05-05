@@ -1,0 +1,14 @@
+.navbar_footer {
+    gap: 14px;
+    margin-bottom: 19px;
+    margin-top: 21px;
+}
+
+@media screen and (max-width: 615px) {
+    .navbar_footer {
+        width: 92px;
+        align-self: start;
+        justify-self: start;
+        margin: 8px 0 10px;
+    }
+}
