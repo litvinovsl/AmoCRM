@@ -21,9 +21,14 @@ function secondsToHms() {
 
 inputEl.addEventListener('input', (e) => {
     numberInInput = Number(parseInt(e.target.value.replace(/[^\d]/g, '')));
+    console.log(numberInInput)
 });
 
 buttonEl.addEventListener('click', () => {
-    intervalId = setInterval(secondsToHms, 1000);
+    if (isNaN(numberInInput)) {
+        timerEl.textContent =  "Введите число!"
+    } else {
+        intervalId = setInterval(secondsToHms, 1000)
+    }
     inputEl.value = '';
 });
